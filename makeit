@@ -1,0 +1,2 @@
+neato -Tpng -o graph.png map.dot -Goverlap=false -Gsplines=true -Gstart=2 -Gsep=$1
+neato -Tsvg -o graph.svg map.dot -Goverlap=false -Gsplines=true -Gstart=2 -Gsep=$1
